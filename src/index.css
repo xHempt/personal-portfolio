@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #378ced
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: rgb(158, 158, 158);
+}
+
+.app {
+  min-height: 100vh;
+  transition: all 0.2s ease;
+  padding-bottom: 5vh;
+}
+
+.highlight {
+  color: var(--color-primary);
+}
+
+.dark-mode {
+  background-color: #222;
+  color: white;
+}

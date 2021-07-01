@@ -1,0 +1,22 @@
+/* ======================================
+               ABOUT PAGE
+========================================= */
+
+.about-page {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+.about-page img {
+    width: 100%;
+}
+
+.about-page h3 {
+    margin-top: -.15em;
+    line-height: 1.2;
+}
+
+.about-page p {
+    margin-top: .5em;
+}
