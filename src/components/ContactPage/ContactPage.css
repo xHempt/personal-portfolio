@@ -1,0 +1,90 @@
+/* ======================================
+             CONTACT PAGE
+========================================= */
+
+.contact-page {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.contact-page h1 {
+    margin-bottom: 0.5em;
+}
+
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-page input,
+.contact-page textarea,
+.contact-page select {
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid lightgrey;
+    padding: 0.5em 1em;
+    margin-bottom: 1.5em;
+}
+
+.contact-page textarea {
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+    height: 20vh;
+}
+
+.contact-links {
+    min-width: 75%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.contact-links > * {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+.contact-links i {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.contact-links h3::after {
+    content: '';
+    inset: 0;
+    background-color: inherit;
+}
+
+@media screen and (min-width: 700px) {
+    .contact-page {
+        flex-direction: row;
+    }
+
+    .contact-page > * {
+        flex-grow: 1;
+        flex-basis: 100%;
+    }
+
+    .contact-page input,
+    .contact-page textarea,
+    .contact-page select {
+        padding: 0.2em 0.5em;
+        margin-bottom: 1em;
+    }
+}
